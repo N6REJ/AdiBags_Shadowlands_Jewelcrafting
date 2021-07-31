@@ -1,0 +1,5 @@
+1.3
+Added the following items...
+	173168, -- Laestrite Setting
+	183954, -- Malleable Wire
+	178787, -- Orboreal Shard

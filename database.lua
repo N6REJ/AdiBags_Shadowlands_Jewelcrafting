@@ -21,4 +21,7 @@ N["database"] = {
 	173171,	-- Essence of Torment
 	173172,	-- Essence of Servitude
 	173173,	-- Essence of Valor
+	173168, -- Laestrite Setting
+	183954, -- Malleable Wire
+	178787, -- Orboreal Shard
 }
