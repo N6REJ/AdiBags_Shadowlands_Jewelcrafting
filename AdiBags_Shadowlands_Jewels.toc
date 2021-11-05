@@ -1,10 +1,11 @@
-## Interface: 90002
-## Title: AdiBags - Shadowlands Crafting-Jewels
-## Version: 1.3.1
+## Interface: 90105
+## Title: AdiBags - Shadowlands Jewels
+## Version: @project-version@
 ## Author: Bearesquishy
+## X-License: MIT
+## X-Curse-Project-ID: 446521
 ## DefaultState: enabled
-## Dependancies: AdiBags
+## Dependencies: AdiBags
 
-Localization.lua
 database.lua
 core.lua

@@ -1,12 +1,12 @@
 package-as: AdiBags_Shadowlands_Jewels
 
 ignore:
-	- README.md
+    - README.md
+    - .github
+    - .packager
+    - .release
 
 required-dependencies:
-    - 23350-adibags
-
-optional-dependencies:
-    - 446529-adibags-shadowlands-mining
+    AdiBags
 
 license-output: LICENSE
