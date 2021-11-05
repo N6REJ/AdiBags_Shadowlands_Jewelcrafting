@@ -7,15 +7,15 @@ local addonName, addonTable, addon = ...
 -- Create addon table
 local db = { }
 
-db.name = "Shadowlands Herbs"
-db.desc = "Herbs found while gathering in shadowlands"
+db.name = "Shadowlands Jewels"
+db.desc = "https://github.com/N6REJ/Adibags_Shadowlands_Jewels"
 
 -- Filter info
 db.Filters = {
     ["Herbs"] = {
-        uiName = "Shadowlands Herbs",
-        uiDesc = "Herbs found in Shadowlands",
-        title = "Herbs",
+        uiName = "Shadowlands Jewels",
+        uiDesc = "Jewelcrafting reagents for Shadowlands",
+        title = "Jewels",
         items = {
             -- [ID] = used,	--Item name
             [173108] = true, -- Oriblase
@@ -28,6 +28,25 @@ db.Filters = {
             [173168] = true, -- laestrite-setting
             [183954] = true, -- malleable-wire
             [178787] = true, -- orboreal-shard
+        },
+    },
+    ["Mining"] = {
+        uiName = "Shadowlands Mining",
+        uiDesc = "Ore found in Shadowlands",
+        title = "Mining",
+        items = {
+            -- ID  = true,		--Item name
+            [171828] = true, -- Laestrite Ore
+            [171829] = true, -- Solenium Ore
+            [171830] = true, -- Oxxein Ore
+            [171831] = true, -- Phaedrum Ore
+            [171832] = true, -- Sinvyr Ore
+            [171833] = true, -- Elethium Ore
+            [171840] = true, -- Porous Stone
+            [171841] = true, -- Shaded Stone
+            [177061] = true, -- Twilight Bark
+            [171840] = true, -- porous-stone
+            [171841] = true, -- shaded-stone
         },
     },
 }
