@@ -1,4 +1,4 @@
-# AdiBags Shadowlands Jewels ![image](https://img.shields.io/badge/Supports-Shadowlands-0B68D7) [![Build Curse Release](https://github.com/N6REJ/Adibags_Shadowlands_Jewels/actions/workflows/action.yml/badge.svg)](https://github.com/N6REJ/Adibags_Shadowlands_Jewels/actions/workflows/action.yml)
+# AdiBags Shadowlands Jewelcrafting ![image](https://img.shields.io/badge/Supports-Shadowlands-0B68D7) [![Build Curse Release](https://github.com/N6REJ/Adibags_Shadowlands_Jewels/actions/workflows/action.yml/badge.svg)](https://github.com/N6REJ/Adibags_Shadowlands_Jewels/actions/workflows/action.yml)
 
 Sorts Jewelcrafting items in their own "jewels" slot.
 
