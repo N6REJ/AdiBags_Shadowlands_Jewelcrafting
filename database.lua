@@ -8,7 +8,7 @@ local addonName, addonTable, addon = ...
 local db = { }
 
 db.name = "Shadowlands Jewels"
-db.desc = "https://github.com/N6REJ/Adibags_Shadowlands_Jewels"
+db.desc = "Jewelcrafting reagents for Shadowlands"
 
 -- Filter info
 db.Filters = {
