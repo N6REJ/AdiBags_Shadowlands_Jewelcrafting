@@ -1,18 +1,18 @@
 -- AdiBags_Shadowlands Jewelcrafting - Database
--- Created by N6REJ character is Bearesquishy - dalaran please credit whenever.
+-- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
 local addonName, addonTable, addon = ...
 
 -- Create addon table
-local db = { }
+local db = {}
 
 db.name = "Shadowlands Jewels"
 db.desc = "Jewelcrafting reagents for Shadowlands"
 
 -- Filter info
 db.Filters = {
-    ["Herbs"] = {
+    ["Jewels"] = {
         uiName = "Shadowlands Jewels",
         uiDesc = "Jewelcrafting reagents for Shadowlands",
         title = "Jewels",
@@ -27,8 +27,8 @@ db.Filters = {
             [173173] = true, -- Essence of Valor
             [173168] = true, -- laestrite-setting
             [183954] = true, -- malleable-wire
-            [178787] = true, -- orboreal-shard
-        },
+            [178787] = true -- orboreal-shard
+        }
     },
     ["Mining"] = {
         uiName = "Shadowlands Mining",
@@ -46,9 +46,24 @@ db.Filters = {
             [171841] = true, -- Shaded Stone
             [177061] = true, -- Twilight Bark
             [171840] = true, -- porous-stone
-            [171841] = true, -- shaded-stone
-        },
+            [171841] = true -- shaded-stone
+        }
     },
+    ["Reagents"] = {
+        uiName = "Shadowlands crafted reagents",
+        uiDesc = "Reagents made by crafting in Shadowlands",
+        title = "Reagents",
+        items = {
+            -- ID  = true,		--Item name
+            [311863] = true, -- Deadly Jewel Cluster
+            [311859] = true, -- Versatile Jewel Cluster
+            [311864] = true, -- Masterful Jewel Cluster
+            [311865] = true, -- Quick Jewel Cluster
+            [343694] = true, -- Crafter's Mark of the Chained Isle
+            [343695] = true, -- Crafter's Mark III
+            [343696] = true -- Crafter's Mark II
+        }
+    }
 }
 
 -- now that db is populated lets pass it on.

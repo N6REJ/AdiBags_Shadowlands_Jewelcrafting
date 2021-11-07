@@ -1,6 +1,6 @@
 ## Interface: 90105
 ## Title: AdiBags - Shadowlands Jewelcrafting
-## Version: @project-version@
+## Version: 1.5.9.5
 ## Author: Bearesquishy
 ## X-License: MIT
 ## X-Curse-Project-ID: 446521
