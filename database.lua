@@ -55,13 +55,14 @@ db.Filters = {
         title = "Reagents",
         items = {
             -- ID  = true,		--Item name
-            [311863] = true, -- Deadly Jewel Cluster
-            [311859] = true, -- Versatile Jewel Cluster
-            [311864] = true, -- Masterful Jewel Cluster
-            [311865] = true, -- Quick Jewel Cluster
-            [343694] = true, -- Crafter's Mark of the Chained Isle
-            [343695] = true, -- Crafter's Mark III
-            [343696] = true -- Crafter's Mark II
+            [311863] = true,    -- Deadly Jewel Cluster
+            [311859] = true,    -- Versatile Jewel Cluster
+            [311864] = true,    -- Masterful Jewel Cluster
+            [311865] = true,    -- Quick Jewel Cluster
+            [343694] = true,    -- Crafter's Mark of the Chained Isle
+            [343695] = true,    -- Crafter's Mark III
+            [343696] = true,    -- Crafter's Mark II
+            [183942] = true,    -- Novice Mark II
         }
     }
 }
