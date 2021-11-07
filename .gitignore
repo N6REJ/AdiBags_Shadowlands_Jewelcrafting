@@ -44,3 +44,7 @@ luac.out
 
 #phpstorm
 .idea
+
+#Visual Studio
+.vs
+.vsc

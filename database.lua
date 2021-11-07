@@ -7,13 +7,13 @@ local addonName, addonTable, addon = ...
 -- Create addon table
 local db = {}
 
-db.name = "Shadowlands Jewels"
+db.name = "Shadowlands Jewelcrafting"
 db.desc = "Jewelcrafting reagents for Shadowlands"
 
 -- Filter info
 db.Filters = {
     ["Jewels"] = {
-        uiName = "Shadowlands Jewels",
+        uiName = "Shadowlands Jewelcrafting",
         uiDesc = "Jewelcrafting reagents for Shadowlands",
         title = "Jewels",
         items = {
@@ -49,24 +49,36 @@ db.Filters = {
             [171841] = true -- shaded-stone
         }
     },
-    ["Reagents"] = {
+    ["Vendor_Reagents"] = {
+        uiName = "Shadowlands Vendor Reagents",
+        uiDesc = "Reagents from vendors used in Shadowlands",
+        title = "Vendor Reagents",
+        items = {
+            -- ID    = true,    --Item name
+            [177062] = true, -- Penumbra Thread
+            [178787] = true, -- Orboreal shards
+            [177061] = true, -- Twilight Bark
+            [183955] = true -- Curing Salt
+        },
+    },
+    ["Crafted_Reagents"] = {
         uiName = "Shadowlands crafted reagents",
         uiDesc = "Reagents made by crafting in Shadowlands",
-        title = "Reagents",
+        title = "Crafted Reagents",
         items = {
-            -- ID  = true,		--Item name
+            -- ID    = true,    --Item name
             [173127] = true,    -- Deadly Jewel Cluster
             [173129] = true,    -- Versatile Jewel Cluster
             [173130] = true,    -- Masterful Jewel Cluster
             [173128] = true,    -- Quick Jewel Cluster
-            [173384] = true,    -- Crafter's Mark of the Chained Isle
-            [173383] = true,    -- Crafter's Mark III
-            [173382] = true,    -- Crafter's Mark II
-            [173381] = true,    -- Crafter's Mark I
-            [183942] = true,    -- Novice Mark II
-            [185960] = true,    -- Vestige of Origins
+            [173384] = true, -- Crafter's Mark of the Chained Isle
+            [173383] = true, -- Crafter's Mark III
+            [173382] = true, -- Crafter's Mark II
+            [173381] = true, -- Crafter's Mark I
+            [183942] = true, -- Novice Mark II
+            [185960] = true -- Vestige of Origins
         }
-    }
+    },
 }
 
 -- now that db is populated lets pass it on.
