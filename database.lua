@@ -44,7 +44,6 @@ db.Filters = {
             [171833] = true, -- Elethium Ore
             [171840] = true, -- Porous Stone
             [171841] = true, -- Shaded Stone
-            [177061] = true, -- Twilight Bark
             [171840] = true, -- porous-stone
             [171841] = true -- shaded-stone
         }
