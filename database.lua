@@ -18,22 +18,39 @@ db.Filters = {
         title = "Jewels",
         items = {
             -- [ID] = used,	--Item name
+            [173127] = true, -- Deadly Jewel Cluster
+            [173129] = true, -- Versatile Jewel Cluster
+            [173130] = true, -- Masterful Jewel Cluster
+            [173128] = true, -- Quick Jewel Cluster
+        }
+    },
+    ["Gems"] = {
+        uiName = "Shadowlands Jewelcrafting Gems",
+        uiDesc = "Jewelcrafting reagents for Shadowlands",
+        title = "Gems",
+        items = {
+            -- [ID] = used,	--Item name
             [173108] = true, -- Oriblase
             [173109] = true, -- Angerseye
             [173110] = true, -- Umbryl
+        }
+    },
+    ["Essence"] = {
+        uiName = "Shadowlands Jewelcrafting Essence",
+        uiDesc = "Jewelcrafting reagents for Shadowlands",
+        title = "Essence",
+        items = {
+            -- [ID] = used,	--Item name
             [173170] = true, -- Essence of Rebirth
             [173171] = true, -- Essence of Torment
             [173172] = true, -- Essence of Servitude
             [173173] = true, -- Essence of Valor
-            [173168] = true, -- laestrite-setting
-            [183954] = true, -- malleable-wire
-            [178787] = true -- orboreal-shard
         }
     },
-    ["Mining"] = {
+    ["Ore"] = {
         uiName = "Shadowlands Mining",
         uiDesc = "Ore found in Shadowlands",
-        title = "Mining",
+        title = "Ore",
         items = {
             -- ID  = true,		--Item name
             [171828] = true, -- Laestrite Ore
@@ -44,8 +61,6 @@ db.Filters = {
             [171833] = true, -- Elethium Ore
             [171840] = true, -- Porous Stone
             [171841] = true, -- Shaded Stone
-            [171840] = true, -- porous-stone
-            [171841] = true -- shaded-stone
         }
     },
     ["Vendor_Reagents"] = {
@@ -56,8 +71,8 @@ db.Filters = {
             -- ID    = true,    --Item name
             [177062] = true, -- Penumbra Thread
             [178787] = true, -- Orboreal shards
-            [177061] = true, -- Twilight Bark
-            [183955] = true -- Curing Salt
+            [173168] = true, -- laestrite-setting
+            [183954] = true, -- malleable-wire
         },
     },
     ["Crafted_Reagents"] = {
@@ -66,10 +81,6 @@ db.Filters = {
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
-            [173127] = true,    -- Deadly Jewel Cluster
-            [173129] = true,    -- Versatile Jewel Cluster
-            [173130] = true,    -- Masterful Jewel Cluster
-            [173128] = true,    -- Quick Jewel Cluster
             [173384] = true, -- Crafter's Mark of the Chained Isle
             [173383] = true, -- Crafter's Mark III
             [173382] = true, -- Crafter's Mark II
