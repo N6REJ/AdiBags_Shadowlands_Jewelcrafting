@@ -63,10 +63,10 @@ db.Filters = {
             [171841] = true, -- Shaded Stone
         }
     },
-    ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Vendor Reagents",
-        uiDesc = "Reagents from vendors used in Shadowlands",
-        title = "Vendor Reagents",
+    ["Jewelcrafting_Reagents"] = {
+        uiName = "Shadowlands Jewelcrafting Reagents",
+        uiDesc = "Jewelcraftings reagents used in Shadowlands",
+        title = "Jewelcrafting Reagents",
         items = {
             -- ID    = true,    --Item name
             [177062] = true, -- Penumbra Thread
