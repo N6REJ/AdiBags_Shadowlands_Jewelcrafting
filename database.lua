@@ -61,6 +61,7 @@ db.Filters = {
             [171833] = true, -- Elethium Ore
             [171840] = true, -- Porous Stone
             [171841] = true, -- Shaded Stone
+            [187700] = true -- Progenium Ore
         }
     },
     ["Jewelcrafting_Reagents"] = {
@@ -86,7 +87,13 @@ db.Filters = {
             [173382] = true, -- Crafter's Mark II
             [173381] = true, -- Crafter's Mark I
             [183942] = true, -- Novice Mark II
-            [185960] = true -- Vestige of Origins
+            [185960] = true, -- Vestige of Origins
+            [359701] = true, -- Vestige of the Eternal
+            [187707] = true, -- Progenitor Essentia
+            [359672] = true, -- Crafter's Mark of the First Ones
+            [359663] = true, -- Crafter's Mark IV
+            [187849] = true, -- Devourer Essence Stone
+            [187829] = true -- Aealic Harmonizing Stone
         }
     },
 }
