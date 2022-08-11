@@ -70,7 +70,6 @@ db.Filters = {
         title = "Jewelcrafting Reagents",
         items = {
             -- ID    = true,    --Item name
-            [177062] = true, -- Penumbra Thread
             [178787] = true, -- Orboreal shards
             [173168] = true, -- laestrite-setting
             [183954] = true, -- malleable-wire
