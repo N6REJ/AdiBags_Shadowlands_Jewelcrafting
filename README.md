@@ -6,7 +6,7 @@
 [![GitHub release](https://img.shields.io/github/release/N6REJ/AdiBags_Bears_Jewelcrafting.svg)](https://GitHub.com/N6REJ/AdiBags_Bears_Jewelcrafting/releases/)
 
 ![Bears](https://img.shields.io/badge/Supports-Bears-0B68D7)
-![9.2.5](https://img.shields.io/badge/Ready_for-9.2.5-darkgreen)
+![10.0.0](https://img.shields.io/badge/Ready_for-9.2.5-darkgreen)
 [![curse](https://img.shields.io/badge/Curseforge_Project_ID:-446521-purple)](https://www.curseforge.com/wow/addons/adibags_shadowlands_Jewelcrafting)
 [![requires](https://img.shields.io/badge/Requires-AdiBags-brown)](https://www.curseforge.com/wow/addons/adibags)
 
