@@ -1,4 +1,4 @@
--- AdiBags_Shadowlands Jewelcrafting - Database
+-- AdiBags_Bears Jewelcrafting - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
@@ -7,14 +7,14 @@ local addonName, addonTable, addon = ...
 -- Create addon table
 local db = {}
 
-db.name = "Shadowlands Jewelcrafting"
-db.desc = "Jewelcrafting reagents for Shadowlands"
+db.name = "Bears Jewelcrafting"
+db.desc = "Jewelcrafting reagents for Bears"
 
 -- Filter info
 db.Filters = {
     ["Jewels"] = {
-        uiName = "Shadowlands Jewelcrafting",
-        uiDesc = "Jewelcrafting reagents for Shadowlands",
+        uiName = "Bears Jewelcrafting",
+        uiDesc = "Jewelcrafting reagents for Bears",
         title = "Jewels",
         items = {
             -- [ID] = used,	--Item name
@@ -25,8 +25,8 @@ db.Filters = {
         }
     },
     ["Gems"] = {
-        uiName = "Shadowlands Jewelcrafting Gems",
-        uiDesc = "Jewelcrafting reagents for Shadowlands",
+        uiName = "Bears Jewelcrafting Gems",
+        uiDesc = "Jewelcrafting reagents for Bears",
         title = "Gems",
         items = {
             -- [ID] = used,	--Item name
@@ -36,8 +36,8 @@ db.Filters = {
         }
     },
     ["Essence"] = {
-        uiName = "Shadowlands Jewelcrafting Essence",
-        uiDesc = "Jewelcrafting reagents for Shadowlands",
+        uiName = "Bears Jewelcrafting Essence",
+        uiDesc = "Jewelcrafting reagents for Bears",
         title = "Essence",
         items = {
             -- [ID] = used,	--Item name
@@ -48,8 +48,8 @@ db.Filters = {
         }
     },
     ["Ore"] = {
-        uiName = "Shadowlands Mining",
-        uiDesc = "Ore found in Shadowlands",
+        uiName = "Bears Mining",
+        uiDesc = "Ore found in Bears",
         title = "Ore",
         items = {
             -- ID  = true,		--Item name
@@ -65,8 +65,8 @@ db.Filters = {
         }
     },
     ["Jewelcrafting_Reagents"] = {
-        uiName = "Shadowlands Jewelcrafting Reagents",
-        uiDesc = "Jewelcraftings reagents used in Shadowlands",
+        uiName = "Bears Jewelcrafting Reagents",
+        uiDesc = "Jewelcrafting reagents used in Bears",
         title = "Jewelcrafting Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -76,8 +76,8 @@ db.Filters = {
         },
     },
     ["Crafted_Reagents"] = {
-        uiName = "Shadowlands crafted reagents",
-        uiDesc = "Reagents made by crafting in Shadowlands",
+        uiName = "Bears crafted reagents",
+        uiDesc = "Reagents made by crafting in Bears",
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
