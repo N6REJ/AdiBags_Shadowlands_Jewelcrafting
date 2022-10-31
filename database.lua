@@ -5,20 +5,20 @@
 ---
 local addonName, addonTable = ...;
 
--- Get locals name
+-- Get locales name
 local L = addonTable.locales;
 local Expansion = L["Shadowlands"]
 
 -- Create addon table
 local db = {}
 
-db.name = "Bears Jewelcrafting"
+db.name = Expansion .. " Jewelcrafting"
 db.desc = "Jewelcrafting reagents for " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Jewels"] = {
-        uiName = "Bears Jewelcrafting",
+        uiName = Expansion .. " Jewelcrafting",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
         title = "Jewels",
         items = {
@@ -30,7 +30,7 @@ db.Filters = {
         }
     },
     ["Gems"] = {
-        uiName = "Bears Jewelcrafting Gems",
+        uiName = Expansion .. " Jewelcrafting Gems",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
         title = "Gems",
         items = {
@@ -41,7 +41,7 @@ db.Filters = {
         }
     },
     ["Essence"] = {
-        uiName = "Bears Jewelcrafting Essence",
+        uiName = Expansion .. " Jewelcrafting Essence",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
         title = "Essence",
         items = {
@@ -53,7 +53,7 @@ db.Filters = {
         }
     },
     ["Ore"] = {
-        uiName = "Bears Mining",
+        uiName = Expansion .. " Mining",
         uiDesc = "Ore found in " .. Expansion,
         title = "Ore",
         items = {
@@ -70,7 +70,7 @@ db.Filters = {
         }
     },
     ["Jewelcrafting_Reagents"] = {
-        uiName = "Bears Jewelcrafting Reagents",
+        uiName = Expansion .. " Jewelcrafting Reagents",
         uiDesc = "Jewelcrafting reagents used in " .. Expansion,
         title = "Jewelcrafting Reagents",
         items = {
@@ -81,7 +81,7 @@ db.Filters = {
         },
     },
     ["Crafted_Reagents"] = {
-        uiName = "Bears crafted reagents",
+        uiName = Expansion .. " crafted reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
