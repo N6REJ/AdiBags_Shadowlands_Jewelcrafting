@@ -18,7 +18,7 @@ db.desc = "Jewelcrafting reagents for " .. Expansion
 -- Filter info
 db.Filters = {
     ["Jewels"] = {
-        uiName = Expansion .. " Jewelcrafting",
+        uiName = "Bears " .. Expansion .. " Jewelcrafting",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
         title = "Jewels",
         items = {
@@ -30,7 +30,7 @@ db.Filters = {
         }
     },
     ["Gems"] = {
-        uiName = Expansion .. " Jewelcrafting Gems",
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Gems",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
         title = "Gems",
         items = {
@@ -41,7 +41,7 @@ db.Filters = {
         }
     },
     ["Essence"] = {
-        uiName = Expansion .. " Jewelcrafting Essence",
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Essence",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
         title = "Essence",
         items = {
@@ -53,7 +53,7 @@ db.Filters = {
         }
     },
     ["Ore"] = {
-        uiName = Expansion .. " Mining",
+        uiName = "Bears " .. Expansion .. " Mining",
         uiDesc = "Ore found in " .. Expansion,
         title = "Ore",
         items = {
@@ -70,7 +70,7 @@ db.Filters = {
         }
     },
     ["Jewelcrafting_Reagents"] = {
-        uiName = Expansion .. " Jewelcrafting Reagents",
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Reagents",
         uiDesc = "Jewelcrafting reagents used in " .. Expansion,
         title = "Jewelcrafting Reagents",
         items = {
@@ -81,7 +81,7 @@ db.Filters = {
         },
     },
     ["Crafted_Reagents"] = {
-        uiName = Expansion .. " crafted reagents",
+        uiName = "Bears " .. Expansion .. " crafted reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
