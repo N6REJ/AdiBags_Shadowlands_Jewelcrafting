@@ -17,7 +17,7 @@ db.desc = "Reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
-
+--[[
 	["Cloth"] = {
 		uiName = "Bears " .. Expansion .. " Tailoring",
 		uiDesc = "Cloth found in " .. Expansion,
@@ -33,6 +33,7 @@ db.Filters = {
 
 		}
 	},
+	--]]
 	["Crafted_Reagents"] = {
 		uiName = "Bears " .. Expansion .. " Crafted Reagents",
 		uiDesc = "Assorted crafted reagents used in " .. Expansion,
