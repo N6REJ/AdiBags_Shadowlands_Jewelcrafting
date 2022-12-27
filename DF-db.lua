@@ -80,6 +80,9 @@ db.Filters = {
             [192866] = true, -- Nozdorite 1
             [192867] = true, -- Nozdorite 2
             [192868] = true, -- Nozdorite 3
+            [192856] = true, -- Malygite 1
+            [192857] = true, -- Malygite 2
+            [192858] = true, -- Malygite 3
         }
     }
 }
