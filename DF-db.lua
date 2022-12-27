@@ -19,7 +19,7 @@ db.desc = "Reagents found in " .. Expansion
 db.Filters = {
 
     ["Cloth"] = {
-        uiName = "Bears " .. Expansion .. " Tailoring",
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Cloth",
         uiDesc = "Cloth found in " .. Expansion,
         title = "Cloth",
         items = {
