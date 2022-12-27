@@ -29,15 +29,33 @@ db.Filters = {
 
         }
     },
-    --[[ ["Crafted_Reagents"] = {
-        uiName = "Bears " .. Expansion .. " Crafted Reagents",
+    ["Crafted_Reagents"] = {
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Crafted Reagents",
         uiDesc = "Assorted crafted reagents used in " .. Expansion,
         title = "Crafted",
         items = {
             -- ID  = true,		-- Item name
-
+            [192834] = true, -- Shimmering Clasp 1
+            [192835] = true, -- Shimmering Clasp 2
+            [192836] = true, -- Shimmering Clasp 3
+            [192883] = true, -- Glossy Stone 1
+            [192884] = true, -- Glossy Stone 2
+            [192885] = true, -- Glossy Stone 3
+            [192876] = true, -- Frameless Lens 1
+            [192877] = true, -- Frameless Lens 2
+            [192878] = true, -- Frameless Lens 3
+            [191474] = true, -- Draconic Vial 1
+            [191475] = true, -- Draconic Vial 2
+            [191476] = true, -- Draconic Vial 3
+            [191474] = true, -- Draconic Vial 1
+            [191475] = true, -- Draconic Vial 2
+            [191476] = true, -- Draconic Vial 3
+            [200938] = true, -- Empty Soul Cage
+            [192887] = true, -- Elemental Harmony 1
+            [193378] = true, -- Elemental Harmony 2
+            [193379] = true, -- Elemental Harmony 3
         }
-    }, --]]
+    },
     ["Ore"] = {
         uiName = "Bears " .. Expansion .. " Mining",
         uiDesc = "Ore found in " .. Expansion,
