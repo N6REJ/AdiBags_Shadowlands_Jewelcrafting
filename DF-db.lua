@@ -83,6 +83,18 @@ db.Filters = {
             [192856] = true, -- Malygite 1
             [192857] = true, -- Malygite 2
             [192858] = true, -- Malygite 3
+            [192862] = true, -- Neltharite 1
+            [192863] = true, -- Neltharite 2
+            [192865] = true, -- Neltharite 3
+            [192859] = true, -- Ysemerald 1
+            [192860] = true, -- Ysemerald 2
+            [192861] = true, -- Ysemerald 3
+            [192852] = true, -- Alexstraszite 1
+            [192853] = true, -- Alexstraszite 2
+            [192855] = true, -- Alexstraszite 3
+            [192869] = true, -- Illimited Diamond 1
+            [192870] = true, -- Illimited Diamond 2
+            [192871] = true, -- Illimited Diamond 3
         }
     }
 }
