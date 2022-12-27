@@ -17,40 +17,36 @@ db.desc = "Reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
---[[
-	["Cloth"] = {
-		uiName = "Bears " .. Expansion .. " Tailoring",
-		uiDesc = "Cloth found in " .. Expansion,
-		title = "Cloth",
-		items = {
-			-- ID  = true,		--Item name
-			[193050] = true, -- Tattered Wildercloth
-			[193922] = true, -- Wildercloth
-			[193053] = true, -- Contoured Fowlfeather
-			[193924] = true, -- Frostbitten Wildercloth
-			[193923] = true, -- Decayed Wildercloth
-			[193925] = true, -- Singed Wildercloth
 
-		}
-	},
-	--]]
-	["Crafted_Reagents"] = {
-		uiName = "Bears " .. Expansion .. " Crafted Reagents",
-		uiDesc = "Assorted crafted reagents used in " .. Expansion,
-		title = "Crafted",
-		items = {
-			-- ID  = true,		-- Item name
+    ["Cloth"] = {
+        uiName = "Bears " .. Expansion .. " Tailoring",
+        uiDesc = "Cloth found in " .. Expansion,
+        title = "Cloth",
+        items = {
+            -- ID  = true,		--Item name
+            [193922] = true, -- Wildercloth
+            [193053] = true, -- Contoured Fowlfeather
 
-		}
-	},
-	["Ore"] = {
-		uiName = "Bears " .. Expansion .. " Mining",
-		uiDesc = "Ore found in " .. Expansion,
-		title = "Ore",
-		items = {-- ID,	--Item name
-			[190394] = true, -- Serevite Ore 1
+        }
+    },
+    --[[ ["Crafted_Reagents"] = {
+        uiName = "Bears " .. Expansion .. " Crafted Reagents",
+        uiDesc = "Assorted crafted reagents used in " .. Expansion,
+        title = "Crafted",
+        items = {
+            -- ID  = true,		-- Item name
+
+        }
+    }, --]]
+    ["Ore"] = {
+        uiName = "Bears " .. Expansion .. " Mining",
+        uiDesc = "Ore found in " .. Expansion,
+        title = "Ore",
+        items = {
+            -- ID  = true,		-- Item name
+            [190394] = true, -- Serevite Ore 1
             [190395] = true, -- Serevite Ore 2
-        	[190396] = true, -- Serevite Ore 3
+            [190396] = true, -- Serevite Ore 3
             [189143] = true, -- Draconium Ore 1
             [188658] = true, -- Draconium Ore 2
             [190311] = true, -- Draconium Ore 3
@@ -58,18 +54,25 @@ db.Filters = {
             [190313] = true, -- Khaz'gorite Ore 2
             [190314] = true, -- Khaz'gorite Ore 3
             [194545] = true, -- Prismatic Ore
-		}
-	},
-	["Enchanting"] = {
-		uiName = "Bears " .. Expansion .. " Enchanting",
-		uiDesc = "Enchanting reagent found in " .. Expansion,
-		title = "Enchanting",
-		items = {-- ID,	--Item name
-			[194123] = true, -- Chromatic Dust
-			[194124] = true, -- Vibrant Shard
-			[201401] = true, -- Iridescent Plume
-		}
-	}
+        }
+    },
+    ["Gems"] = {
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Gems",
+        uiDesc = "Jewelcrafting reagents for " .. Expansion,
+        title = "Gems",
+        items = {
+            -- [ID] = used,	--Item name
+            [192849] = true, -- Eternity Amber 1
+			[192850] = true, -- Eternity Amber 2
+			[192851] = true, -- Eternity Amber 3
+            [192840] = true, -- Mystic Sapphire 1
+            [192841] = true, -- Mystic Sapphire 2
+            [192842] = true, -- Mystic Sapphire 3
+            [192846] = true, -- Sundered Onyx 1
+            [192847] = true, -- Sundered Onyx 2
+            [192848] = true, -- Sundered Onyx 3
+        }
+    }
 }
 
 -- now that db is populated lets pass it on.
