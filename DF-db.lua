@@ -71,6 +71,15 @@ db.Filters = {
             [192846] = true, -- Sundered Onyx 1
             [192847] = true, -- Sundered Onyx 2
             [192848] = true, -- Sundered Onyx 3
+            [192843] = true, -- Vibrant Emerald 1
+            [192844] = true, -- Vibrant Emerald 2
+            [192845] = true, -- Vibrant Emerald 3
+            [192837] = true, -- Queen's Ruby 1
+            [192838] = true, -- Queen's Ruby 2
+            [192839] = true, -- Queen's Ruby 3
+            [192866] = true, -- Nozdorite 1
+            [192867] = true, -- Nozdorite 2
+            [192868] = true, -- Nozdorite 3
         }
     }
 }
