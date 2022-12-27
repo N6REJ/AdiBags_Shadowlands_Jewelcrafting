@@ -12,5 +12,6 @@
 expansion.lua
 Global-dbs.lua
 DF-Global.lua
-database.lua
+DF-db.lua
+SL-db.lua
 core.lua
