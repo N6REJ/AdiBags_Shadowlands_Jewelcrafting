@@ -63,8 +63,8 @@ db.Filters = {
         items = {
             -- [ID] = used,	--Item name
             [192849] = true, -- Eternity Amber 1
-			[192850] = true, -- Eternity Amber 2
-			[192851] = true, -- Eternity Amber 3
+            [192850] = true, -- Eternity Amber 2
+            [192851] = true, -- Eternity Amber 3
             [192840] = true, -- Mystic Sapphire 1
             [192841] = true, -- Mystic Sapphire 2
             [192842] = true, -- Mystic Sapphire 3
@@ -95,6 +95,18 @@ db.Filters = {
             [192869] = true, -- Illimited Diamond 1
             [192870] = true, -- Illimited Diamond 2
             [192871] = true, -- Illimited Diamond 3
+        }
+    },
+    ["Prospecting Reagents"] = {
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Prospecting Reagents",
+        uiDesc = "Reagents found in " .. Expansion .. " by Prospecting",
+        title = "Prospecting Reagents",
+        items = {
+            -- ID  = true,		--Item name
+            [192880] = true, -- Crumbled Stone
+            [192872] = true, -- Fractured Glass
+            [193368] = true, -- Silken Gemdust
+
         }
     }
 }
