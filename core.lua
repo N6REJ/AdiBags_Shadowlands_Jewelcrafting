@@ -59,8 +59,32 @@ local function CreateFilter(name, uiName, uiDesc, title, items)
 	end
 
 	function filter:Filter(slotData)
-		if self.items[tonumber(slotData.itemId)] then
-			return title
+		MatchIDs = MatchIDs or MatchIDs_Init(self)
+		for i, name in pairs(MatchIDs) do
+			-- Override Method
+			if MatchIDs[i]['override'] then
+				slotData['loc'] = ItemLocation:CreateFromBagAndSlot(slotData.bag, slotData.slot)
+				if slotData['loc']  and slotData['loc']:IsValid() then
+					if MatchIDs[i]['override_method'](slotData.loc) then
+						return i
+					end
+				end
+
+				-- Bonus Condition (triggers when bonus condition is not fulfilled)
+			elseif MatchIDs[i]['bonus_condition'] then
+				if name[slotData.itemId] then
+					slotData['loc'] = ItemLocation:CreateFromBagAndSlot(slotData.bag, slotData.slot)
+					if slotData['loc'] and slotData['loc']:IsValid() then
+						if not MatchIDs[i]['bonus_condition_method'](slotData.loc) then -- THERE IS A NOT HERE!
+							return i
+						end
+					end
+				end
+
+				-- Standard ID Matching
+			elseif name[slotData.itemId] then
+				return i
+			end
 		end
 	end
 end
