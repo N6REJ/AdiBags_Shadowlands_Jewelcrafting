@@ -19,7 +19,7 @@ db.desc = "Reagents found in " .. Expansion
 db.Filters = {
 
     ["Cloth"] = {
-        uiName = "Bears " .. Expansion .. " Jewelcrafting Cloth",
+        uiName = "Bears " .. Expansion .. " Cloth",
         uiDesc = "Cloth found in " .. Expansion,
         title = "Cloth",
         items = {
@@ -30,7 +30,7 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = "Bears " .. Expansion .. " Jewelcrafting Crafted Reagents",
+        uiName = "Bears " .. Expansion .. " Crafted Reagents",
         uiDesc = "Assorted crafted reagents used in " .. Expansion,
         title = "Crafted",
         items = {
@@ -116,7 +116,7 @@ db.Filters = {
         }
     },
     ["Prospecting Reagents"] = {
-        uiName = "Bears " .. Expansion .. " Jewelcrafting Prospecting Reagents",
+        uiName = "Bears " .. Expansion .. " Prospecting Reagents",
         uiDesc = "Reagents found in " .. Expansion .. " by Prospecting",
         title = "Prospecting Reagents",
         items = {
