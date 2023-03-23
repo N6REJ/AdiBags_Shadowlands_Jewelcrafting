@@ -115,25 +115,17 @@ db.Filters = {
             [192871] = true, -- Illimited Diamond 3
         }
     },
-    ["Prospecting Reagents"] = {
-        uiName = "Bears " .. Expansion .. " Prospecting Reagents",
-        uiDesc = "Reagents found in " .. Expansion .. " by Prospecting",
-        title = "Prospecting Reagents",
+    ["Fragments"] = {
+        uiName = "Bears " .. Expansion .. " fragments",
+        uiDesc = "Fragments found in " .. Expansion ,
+        title = "Fragments",
         items = {
             -- ID  = true,		--Item name
             [192880] = true, -- Crumbled Stone
             [192872] = true, -- Fractured Glass
             [193368] = true, -- Silken Gemdust
+            [204215] = true, -- Dormant primordial Fragment
 
-        }
-    },
-    ["Fragments"] = {
-        uiName = "Bears " .. Expansion .. " fragments",
-        uiDesc = "Fragments found in " .. Expansion .. " Forbidden Reach",
-        title = "Prospecting Reagents",
-        items = {
-            -- ID  = true,		--Item name
-            [204215] = true, -- Dormant primoridal Fragment
         }
     }
 }
