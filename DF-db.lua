@@ -126,6 +126,15 @@ db.Filters = {
             [193368] = true, -- Silken Gemdust
 
         }
+    },
+    ["Fragments"] = {
+        uiName = "Bears " .. Expansion .. " fragments",
+        uiDesc = "Fragments found in " .. Expansion .. " Forbidden Reach",
+        title = "Prospecting Reagents",
+        items = {
+            -- ID  = true,		--Item name
+            [204215] = true, -- Dormant primoridal Fragment
+        }
     }
 }
 
