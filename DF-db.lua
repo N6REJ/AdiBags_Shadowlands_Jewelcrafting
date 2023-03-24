@@ -124,8 +124,17 @@ db.Filters = {
             [192880] = true, -- Crumbled Stone
             [192872] = true, -- Fractured Glass
             [193368] = true, -- Silken Gemdust
+            [204356] = true, -- Illustrious Gemdust
             [204215] = true, -- Dormant primordial Fragment
-
+        }
+    },
+    ["Artisan"] = {
+        uiName = "Bears " .. Expansion .. " Artisan Jewelcrafting reagents",
+        uiDesc = "Artisan reagents found in " .. Expansion,
+        title = "Artisan",
+        items = {
+            -- ID,	--Item name
+            [203404] = true, -- Crystal Fork
         }
     }
 }
