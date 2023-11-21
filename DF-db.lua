@@ -136,6 +136,17 @@ db.Filters = {
             -- ID,	--Item name
             [203404] = true, -- Crystal Fork
         }
+    },
+    ["Optional_Reagents"] = {
+        uiName = "Bears " .. Expansion .. " Optional Reagents",
+        uiDesc = "Assorted Optional reagents used in " .. Expansion,
+        title = "Optional",
+        items = {
+            -- ID  = true,		--Item name
+            [208746] = true, -- Dreamtender's Charm 1
+            [208747] = true, -- Dreamtender's Charm 2
+            [208748] = true, -- Dreamtender's Charm 3
+        }
     }
 }
 
