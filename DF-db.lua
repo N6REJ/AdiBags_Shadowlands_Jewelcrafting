@@ -146,6 +146,7 @@ db.Filters = {
             [208746] = true, -- Dreamtender's Charm 1
             [208747] = true, -- Dreamtender's Charm 2
             [208748] = true, -- Dreamtender's Charm 3
+            [208212] = true, -- Dreaming Essence
         }
     }
 }
