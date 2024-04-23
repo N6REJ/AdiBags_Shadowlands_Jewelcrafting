@@ -1,6 +1,6 @@
 ## Title: AdiBags - Bears Jewelcrafting
-## Interface: 100206
-## X-Interface: 100206
+## Interface: 100207
+## X-Interface: 100207
 ## Version: @project_version@
 ## Author: Bearesquishy
 ## X-License: MIT
