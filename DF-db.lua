@@ -71,6 +71,20 @@ db.Filters = {
             [194545] = true, -- Prismatic Ore
         }
     },
+    ["Jewelcrafting Finishing"] = {
+        uiName = "Bears " .. Expansion .. " Jewelcrafting Finishing",
+        uiDesc = "Jewelcrafting Finishing Reagents for " .. Expansion,
+        title = "Jewelcrafting Finishing",
+        items = {
+            -- ID  = true,		-- Item name
+            [192894] = true, -- Blotting Sand 1
+            [192895] = true, -- Blotting Sand 2
+            [192896] = true, -- Blotting Sand 3
+            [192897] = true, -- Pounce 1
+            [192898] = true, -- Pounce 2
+            [192899] = true, -- Pounce 3
+        }
+    },
     ["Gems"] = {
         uiName = "Bears " .. Expansion .. " Jewelcrafting Gems",
         uiDesc = "Jewelcrafting reagents for " .. Expansion,
